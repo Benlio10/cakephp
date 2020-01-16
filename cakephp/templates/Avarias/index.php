@@ -7,6 +7,7 @@
 <div class="avarias index content">
     <?= $this->Html->link(__('New Avaria'), ['action' => 'add'], ['class' => 'button float-right']) ?>
     <h3><?= __('Avarias') ?></h3>
+    <?= $this->Html->link(__('Pcs'),['controller' => 'pcs']) ?>
     <div class="table-responsive">
         <table>
             <thead>

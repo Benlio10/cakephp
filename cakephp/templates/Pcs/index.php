@@ -7,6 +7,7 @@
 <div class="pcs index content">
     <?= $this->Html->link(__('New Pc'), ['action' => 'add'], ['class' => 'button float-right']) ?>
     <h3><?= __('Pcs') ?></h3>
+    <?= $this->Html->link(__('Avarias'),['controller' => 'avarias']) ?>
     <div class="table-responsive">
         <table>
             <thead>
