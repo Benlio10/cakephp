@@ -7,13 +7,12 @@ class ArticlesController extends AppController
 {
     public function index()
     {
-        $this->loadComponent('Paginator');
-        $articles = $this->Paginator->paginate($this->Articles->find());
+        $articles = $this->Articles->find('all');
         $this->set(compact('articles'));
     }
-    public function view($slug = null)
+    public function view($id = null)
     {
-        $article = $this->Articles->findBySlug($slug)->firstOrFail();
+        $article = $this->Articles->get($id);
         $this->set(compact('article'));
     }
     public function add()
@@ -21,26 +20,17 @@ class ArticlesController extends AppController
         $article = $this->Articles->newEmptyEntity();
         if ($this->request->is('post')) {
             $article = $this->Articles->patchEntity($article, $this->request->getData());
-
-            // Hardcoding the user_id is temporary, and will be removed later
-            // when we build authentication out.
-            $article->user_id = 1;
-
             if ($this->Articles->save($article)) {
                 $this->Flash->success(__('Your article has been saved.'));
-                return $this->redirect(['action' => 'index']);
+                return $this->redirect(['controller' => 'Articles','action' => 'index']);
             }
             $this->Flash->error(__('Unable to add your article.'));
         }
         $this->set('article', $article);
     }
-    public function edit($slug)
+    public function edit($id = null)
     {
-        $article = $this->Articles
-            ->findBySlug($slug)
-            ->contain('Tags') // load associated Tags
-            ->firstOrFail();
-
+        $article = $this->Articles->get($id);
         if ($this->request->is(['post', 'put'])) {
             $this->Articles->patchEntity($article, $this->request->getData());
             if ($this->Articles->save($article)) {
@@ -52,4 +42,15 @@ class ArticlesController extends AppController
 
         $this->set('article', $article);
     }
+    public function delete($id)
+    {
+        $this->request->allowMethod(['post', 'delete']);
+
+        $article = $this->Articles->get($id);
+        if ($this->Articles->delete($article)) {
+            $this->Flash->success(__('The article with id: {0} has been deleted.', h($id)));
+            return $this->redirect(['action' => 'index']);
+        }
+    }
 }
+?>
