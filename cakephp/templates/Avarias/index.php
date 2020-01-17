@@ -26,6 +26,7 @@
                         <?= $this->Html->link(__('View'), ['action' => 'view', $avaria->id]) ?>
                         <?= $this->Html->link(__('Edit'), ['action' => 'edit', $avaria->id]) ?>
                         <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $avaria->id], ['confirm' => __('Are you sure you want to delete # {0}?', $avaria->id)]) ?>
+                        <?= $this->Html->link(__('RegistarPC'), ['controller' => 'avarias-pcs', 'action' => 'add']) ?>
                     </td>
                 </tr>
                 <?php endforeach; ?>

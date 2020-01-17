@@ -1,0 +1,2329 @@
+2020-01-10 11:47:40 Error: [Cake\Http\Exception\MissingControllerException] Controller class Articles could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Articles',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles
+
+
+2020-01-10 11:51:16 Error: [Cake\Http\Exception\MissingControllerException] Controller class Article could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Article',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /article
+
+
+2020-01-10 11:51:25 Error: [Cake\Http\Exception\MissingControllerException] Controller class Article could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Article',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /Article
+
+
+2020-01-10 11:51:30 Error: [Cake\Http\Exception\MissingControllerException] Controller class Article could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Article',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /article
+
+
+2020-01-10 11:52:20 Error: [Cake\Http\Exception\MissingControllerException] Controller class Articles could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Articles',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles
+
+
+2020-01-10 11:52:38 Error: [Cake\Http\Exception\MissingControllerException] Controller class Articles could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Articles',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles
+
+
+2020-01-10 11:54:08 Error: [Cake\View\Exception\MissingTemplateException] Template file 'Articles/index.php' could not be found.
+
+The following paths were searched:
+
+- /workspace/cakephp/cakephp/templates/
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/templates/
+ in Articles/index.php on line 1335
+Exception Attributes: array (
+  'file' => 'Articles/index.php',
+  'paths' => 
+  array (
+    0 => '/workspace/cakephp/cakephp/templates/',
+    1 => '/workspace/cakephp/cakephp/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/View.php:747
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:533
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles
+
+
+2020-01-10 11:58:56 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::view() could not be found, or is not accessible. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php on line 503
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'view',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles/view/first-post
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/articles
+
+
+2020-01-10 12:03:24 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::edit() could not be found, or is not accessible. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php on line 503
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'edit',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles/edit/first-post
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/articles/view/first-post
+
+
+2020-01-10 12:18:15 Error: [InvalidArgumentException] The Tags association is not defined on Articles. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php on line 843
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:491
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:317
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:447
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:418
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1130
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1078
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:145
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:274
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:281
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:331
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1100
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:292
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1046
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:443
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:454
+- /workspace/cakephp/cakephp/src/Controller/ArticlesController.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles/edit/first-post
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/articles
+
+
+2020-01-10 12:20:20 Error: [InvalidArgumentException] The Tags association is not defined on Articles. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php on line 843
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:491
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:317
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:447
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:418
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1130
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1078
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:145
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:274
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:281
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:331
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1100
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:292
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1046
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:443
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:454
+- /workspace/cakephp/cakephp/src/Controller/ArticlesController.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles/edit/first-post
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/articles
+
+
+2020-01-10 12:22:17 Error: [InvalidArgumentException] The Tags association is not defined on Articles. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php on line 843
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:491
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:317
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:447
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:418
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1130
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1078
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:145
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:274
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:281
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:331
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1100
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:292
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1046
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:443
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:454
+- /workspace/cakephp/cakephp/src/Controller/ArticlesController.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles/edit/first-post
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/articles/view/first-post
+
+
+2020-01-10 12:24:37 Error: [InvalidArgumentException] The Tags association is not defined on Articles. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php on line 843
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:491
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:317
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:447
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:418
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1130
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1078
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:145
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:274
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:281
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:331
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1100
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:292
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1046
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:443
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:454
+- /workspace/cakephp/cakephp/src/Controller/ArticlesController.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles/edit/first-post
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/articles
+
+
+2020-01-10 12:26:25 Error: [InvalidArgumentException] The Tags association is not defined on Articles. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php on line 843
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:491
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:317
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:447
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:418
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1130
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1078
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:145
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:274
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:281
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:331
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1100
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:292
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1046
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:443
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:454
+- /workspace/cakephp/cakephp/src/Controller/ArticlesController.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles/edit/first-post
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/articles
+
+
+2020-01-10 12:29:00 Error: [InvalidArgumentException] The Tags association is not defined on Articles. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php on line 843
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:491
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:317
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:447
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:418
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1130
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1078
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:145
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:274
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:281
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:331
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1100
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:292
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1046
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:443
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:454
+- /workspace/cakephp/cakephp/src/Controller/ArticlesController.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles/edit/first-post
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/articles
+
+
+2020-01-10 12:29:11 Error: [InvalidArgumentException] The Tags association is not defined on Articles. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php on line 843
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:491
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:317
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:447
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:418
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1130
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1078
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:145
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:274
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:281
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:331
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1100
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:292
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1046
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:443
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:454
+- /workspace/cakephp/cakephp/src/Controller/ArticlesController.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles/edit/first-post
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/articles
+
+
+2020-01-10 12:32:50 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'gay' for key 'slug' in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 40
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:40
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1976
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1868
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1769
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1469
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1470
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1770
+- /workspace/cakephp/cakephp/src/Controller/ArticlesController.php:29
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles/add
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/articles/add
+
+
+2020-01-10 12:38:09 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /css/milligram.min.css.map
+
+
+2020-01-10 12:49:15 Error: [Cake\Http\Exception\MissingControllerException] Controller class Article could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Article',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /article
+
+
+2020-01-10 12:49:45 Error: [InvalidArgumentException] The Tags association is not defined on Articles. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php on line 843
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:491
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:317
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:447
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:418
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1130
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1078
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:145
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:274
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:281
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:331
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1100
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:292
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1046
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:443
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:454
+- /workspace/cakephp/cakephp/src/Controller/ArticlesController.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles/edit/gay
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/articles
+
+
+2020-01-10 17:08:13 Error: [InvalidArgumentException] The Tags association is not defined on Articles. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php on line 843
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:491
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:317
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:447
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:418
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1130
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1078
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:145
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:274
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:281
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:331
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1100
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:292
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1046
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:443
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:454
+- /workspace/cakephp/cakephp/src/Controller/ArticlesController.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles/edit/gay
+Referer URL: https://8000-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/articles
+
+
+2020-01-10 17:11:38 Error: [InvalidArgumentException] The Tags association is not defined on Articles. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php on line 843
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:491
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:317
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:447
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:418
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1130
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1078
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:145
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:274
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:281
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:331
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1100
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:292
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1046
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:443
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:454
+- /workspace/cakephp/cakephp/src/Controller/ArticlesController.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles/edit/first-post
+Referer URL: https://8000-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/articles
+
+
+2020-01-13 16:27:38 Error: [InvalidArgumentException] The Tags association is not defined on Articles. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php on line 843
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:491
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:317
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:447
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:418
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1130
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1078
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:145
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:274
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:281
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:331
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1100
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:292
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1046
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:443
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:454
+- /workspace/cakephp/cakephp/src/Controller/ArticlesController.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles/edit/first-post
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/articles
+
+
+2020-01-13 16:36:14 Error: [InvalidArgumentException] The Tags association is not defined on Articles. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php on line 843
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:491
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:317
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:447
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:418
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1130
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1078
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:145
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:274
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:281
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:331
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1100
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:292
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1046
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:443
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:454
+- /workspace/cakephp/cakephp/src/Controller/ArticlesController.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles/edit/first-post
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/articles
+
+
+2020-01-13 16:36:20 Error: [InvalidArgumentException] The Tags association is not defined on Articles. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php on line 843
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:491
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:317
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:447
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:418
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1130
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1078
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:145
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:274
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:281
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:331
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1100
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:292
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1046
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:443
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:454
+- /workspace/cakephp/cakephp/src/Controller/ArticlesController.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles/edit/gay
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/articles
+
+
+2020-01-13 16:39:15 Error: [InvalidArgumentException] The Tags association is not defined on Articles. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php on line 843
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:491
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:317
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:447
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:418
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1130
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1078
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:145
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:274
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:281
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:331
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1100
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:292
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1046
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:141
+- IteratorIterator::__construct() - [internal], line ??- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Collection/Collection.php:43
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/Form/ContextFactory.php:70
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/Form/ContextFactory.php:147
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php:2398
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php:362
+- /workspace/cakephp/cakephp/templates/Articles/edit.php:5
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/View.php:1164
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/View.php:1125
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/View.php:750
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:533
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles/edit/first-post
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/articles
+
+
+2020-01-13 16:42:56 Error: [InvalidArgumentException] The Tags association is not defined on Articles. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php on line 843
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:491
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:317
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:447
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:418
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1130
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1078
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:145
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:274
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:281
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:331
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1100
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:292
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1046
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:443
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:454
+- /workspace/cakephp/cakephp/src/Controller/ArticlesController.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles/edit/first-post
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/articles
+
+
+2020-01-13 16:45:56 Error: [InvalidArgumentException] The Tags association is not defined on Articles. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php on line 843
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:491
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:317
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:447
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:418
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1130
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1078
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:145
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:274
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:281
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:331
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1100
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:292
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1046
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:443
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:454
+- /workspace/cakephp/cakephp/src/Controller/ArticlesController.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles/edit/first-post
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/articles
+
+
+2020-01-13 16:46:05 Error: [Cake\Http\Exception\MissingControllerException] Controller class Index could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Index',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /index
+
+
+2020-01-13 16:46:11 Error: [Cake\Http\Exception\MissingControllerException] Controller class Article could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Article',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /article
+
+
+2020-01-13 16:48:35 Error: [InvalidArgumentException] The Tags association is not defined on Articles. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php on line 843
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:491
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:317
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:447
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:418
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1130
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1078
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:145
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:274
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:281
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:331
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1100
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:292
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:1046
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:443
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:454
+- /workspace/cakephp/cakephp/src/Controller/ArticlesController.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles/edit/first-post
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/articles
+
+
+2020-01-13 16:56:06 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::view() could not be found, or is not accessible. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php on line 503
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'view',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles/view
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/articles
+
+
+2020-01-13 16:56:14 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::view() could not be found, or is not accessible. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php on line 503
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'view',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles/view
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/articles
+
+
+2020-01-13 16:56:51 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::view() could not be found, or is not accessible. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php on line 503
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'view',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles/view/1
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/articles
+
+
+2020-01-14 08:39:37 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "articles" in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php on line 458
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1455
+- /workspace/cakephp/cakephp/src/Controller/ArticlesController.php:49
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /articles/delete/10
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/
+
+
+2020-01-14 09:36:50 Error: [Cake\View\Exception\MissingTemplateException] Template file 'RegistoAvarias/index.php' could not be found.
+
+The following paths were searched:
+
+- /workspace/cakephp/cakephp/templates/
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/templates/
+ in RegistoAvarias/index.php on line 1335
+Exception Attributes: array (
+  'file' => 'RegistoAvarias/index.php',
+  'paths' => 
+  array (
+    0 => '/workspace/cakephp/cakephp/templates/',
+    1 => '/workspace/cakephp/cakephp/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/View.php:747
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:533
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /registoAvarias
+
+
+2020-01-14 09:38:06 Error: [Cake\Http\Exception\MissingControllerException] Controller class RegistoAvaria could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'RegistoAvaria',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /registoAvaria
+
+
+2020-01-14 09:38:11 Error: [Cake\View\Exception\MissingTemplateException] Template file 'RegistoAvarias/index.php' could not be found.
+
+The following paths were searched:
+
+- /workspace/cakephp/cakephp/templates/
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/templates/
+ in RegistoAvarias/index.php on line 1335
+Exception Attributes: array (
+  'file' => 'RegistoAvarias/index.php',
+  'paths' => 
+  array (
+    0 => '/workspace/cakephp/cakephp/templates/',
+    1 => '/workspace/cakephp/cakephp/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/View.php:747
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:533
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /registoAvarias
+
+
+2020-01-14 09:57:41 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /css/milligram.min.css.map
+
+
+2020-01-14 09:58:04 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /css/milligram.min.css.map
+
+
+2020-01-14 10:12:08 Error: [Cake\Http\Exception\MissingControllerException] Controller class Avrias could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Avrias',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /avrias
+
+
+2020-01-15 10:47:58 Error: [Cake\Http\Exception\MissingControllerException] Controller class Users could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /users
+
+
+2020-01-15 10:59:43 Error: [ParseError] syntax error, unexpected '?>' in /workspace/cakephp/cakephp/templates/Avarias/index.php on line 22
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/View.php:1125
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/View.php:750
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:533
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /avarias
+
+
+2020-01-15 11:01:44 Error: [TypeError] call_user_func_array() expects parameter 1 to be a valid callback, class 'Cake\Utility\Text' does not have a method 'format' in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/Helper/TextHelper.php on line 102
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/Helper/TextHelper.php:102
+- /workspace/cakephp/cakephp/templates/Avarias/index.php:22
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/View.php:1164
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/View.php:1125
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/View.php:750
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:533
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /avarias
+
+
+2020-01-15 11:06:55 Error: [Error] Call to undefined method App\View\AppView::h() in /workspace/cakephp/cakephp/templates/Avarias/index.php on line 22
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/View.php:1164
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/View.php:1125
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/View.php:750
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:533
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /avarias
+
+
+2020-01-15 11:07:35 Error: [TypeError] call_user_func_array() expects parameter 1 to be a valid callback, class 'Cake\Utility\Text' does not have a method 'format' in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/Helper/TextHelper.php on line 102
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/Helper/TextHelper.php:102
+- /workspace/cakephp/cakephp/templates/Avarias/index.php:22
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/View.php:1164
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/View.php:1125
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/View/View.php:750
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:533
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /avarias
+
+
+2020-01-15 11:13:01 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /css/milligram.min.css.map
+
+
+2020-01-15 11:18:50 Error: [Cake\Http\Exception\MissingControllerException] Controller class Registoavarias could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Registoavarias',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /registoavarias
+
+
+2020-01-17 11:06:11 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /css/milligram.min.css.map
+
+
+2020-01-17 11:06:38 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /css/milligram.min.css.map
+
+
+2020-01-17 11:06:39 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /css/milligram.min.css.map
+
+
+2020-01-17 11:06:47 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /css/milligram.min.css.map
+
+
+2020-01-17 11:06:48 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /css/milligram.min.css.map
+
+
+2020-01-17 11:09:07 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /css/milligram.min.css.map
+
+
+2020-01-17 11:09:18 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /css/milligram.min.css.map
+
+
+2020-01-17 11:09:39 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1216 Cannot add or update a child row: a foreign key constraint fails in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 40
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:40
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1976
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1868
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1769
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1469
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1470
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1770
+- /workspace/cakephp/cakephp/src/Controller/RegistoAvariasController.php:53
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /registo-avarias/add
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/registo-avarias/add
+
+
+2020-01-17 11:09:44 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /css/milligram.min.css.map
+
+
+2020-01-17 11:09:59 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1216 Cannot add or update a child row: a foreign key constraint fails in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 40
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:40
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1976
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1868
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1769
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1469
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1470
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1770
+- /workspace/cakephp/cakephp/src/Controller/RegistoAvariasController.php:53
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /registo-avarias/add
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/registo-avarias/add
+
+
+2020-01-17 11:10:19 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /css/milligram.min.css.map
+
+
+2020-01-17 11:10:28 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /css/milligram.min.css.map
+
+
+2020-01-17 11:10:30 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /css/milligram.min.css.map
+
+
+2020-01-17 11:10:40 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /css/milligram.min.css.map
+
+
+2020-01-17 11:10:48 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /css/milligram.min.css.map
+
+
+2020-01-17 11:39:59 Error: [Cake\Http\Exception\MissingControllerException] Controller class Avariaspcs could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Avariaspcs',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /avariaspcs/add
+Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/avarias
+
+
+2020-01-17 11:41:23 Error: [Cake\Http\Exception\MissingControllerException] Controller class Avariaspcs could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Avariaspcs',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /avariaspcs
+
+
+2020-01-17 11:42:14 Error: [Cake\Http\Exception\MissingControllerException] Controller class Avariaspcs could not be found. in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 155
+Exception Attributes: array (
+  'class' => 'Avariaspcs',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /avariaspcs
+
+
