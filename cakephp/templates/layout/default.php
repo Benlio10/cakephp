@@ -43,8 +43,13 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             <a href="/"><span>Cake</span>PHP</a>
         </div>
         <div class="top-nav-links">
-            <a target="_blank" href="https://book.cakephp.org/4/">Documentation</a>
-            <a target="_blank" href="https://api.cakephp.org/4/">API</a>
+            <?php
+                if ($logged) {
+                    echo $this->Html->link('Logout', ['controller' => 'users', 'action' => 'logout']);
+                } else {
+                    echo $this->Html->link('Registar', ['controller' => 'users', 'action' => 'register']);
+                }
+            ?>
         </div>
     </nav>
     <main class="main">
@@ -54,6 +59,11 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         </div>
     </main>
     <footer>
+    <?= $this->element('footer'); ?>
+    <?= $this->element('pass_var', [
+        'texto1' => 'Professor',
+        'texto2' => 'Hugo Amarelo'
+    ]); ?>
     </footer>
 </body>
 </html>

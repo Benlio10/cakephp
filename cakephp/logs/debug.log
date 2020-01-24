@@ -1,13 +1,263 @@
-2020-01-17 12:05:18 Notice: Notice (8): Undefined property: Cake\ORM\Query::$name in [/workspace/cakephp/cakephp/templates/AvariasPcs/add.php, line 20]
-Request URL: /avarias-pcs/add
-Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/
+2020-01-21 09:02:45 Notice: Notice (1024): Undefined property: UsersController::$Auth in /workspace/cakephp/cakephp/src/Controller/UsersController.php on line 110 in [/workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 314]
+Request URL: /users/login
+Referer URL: https://8765-fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/users/login
 Trace:
-Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 178
-DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 90
-include - ROOT/templates/AvariasPcs/add.php, line 20
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE/src/Controller/Controller.php, line 314
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 110
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-24 10:59:02 Notice: Notice (8): Undefined variable: session in [/workspace/cakephp/cakephp/templates/layout/default.php, line 47]
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+include - ROOT/templates/layout/default.php, line 47
 Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1164
 Cake\View\View::_render() - CORE/src/View/View.php, line 1125
-Cake\View\View::render() - CORE/src/View/View.php, line 750
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 803
+Cake\View\View::render() - CORE/src/View/View.php, line 761
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 691
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 533
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 122
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-24 10:59:40 Notice: Notice (8): Undefined variable: session in [/workspace/cakephp/cakephp/templates/layout/default.php, line 47]
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+include - ROOT/templates/layout/default.php, line 47
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1164
+Cake\View\View::_render() - CORE/src/View/View.php, line 1125
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 803
+Cake\View\View::render() - CORE/src/View/View.php, line 761
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 691
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 533
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 122
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-24 11:00:29 Notice: Notice (8): Undefined variable: session in [/workspace/cakephp/cakephp/templates/layout/default.php, line 47]
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+include - ROOT/templates/layout/default.php, line 47
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1164
+Cake\View\View::_render() - CORE/src/View/View.php, line 1125
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 803
+Cake\View\View::render() - CORE/src/View/View.php, line 761
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 691
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 533
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 122
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-24 11:07:58 Notice: Notice (8): Undefined variable: login in [/workspace/cakephp/cakephp/templates/layout/default.php, line 47]
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+include - ROOT/templates/layout/default.php, line 47
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1164
+Cake\View\View::_render() - CORE/src/View/View.php, line 1125
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 803
+Cake\View\View::render() - CORE/src/View/View.php, line 761
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 691
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 533
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 122
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-24 11:47:10 Notice: Notice (8): Undefined variable: texto1 in [/workspace/cakephp/cakephp/templates/element/pass_var.php, line 2]
+Request URL: /
+Referer URL: https://8765-fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+include - ROOT/templates/element/pass_var.php, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1164
+Cake\View\View::_render() - CORE/src/View/View.php, line 1125
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1636
+Cake\View\View::element() - CORE/src/View/View.php, line 654
+include - ROOT/templates/layout/default.php, line 63
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1164
+Cake\View\View::_render() - CORE/src/View/View.php, line 1125
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 803
+Cake\View\View::render() - CORE/src/View/View.php, line 761
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 691
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 533
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 122
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-24 11:47:10 Notice: Notice (8): Undefined variable: texto2 in [/workspace/cakephp/cakephp/templates/element/pass_var.php, line 2]
+Request URL: /
+Referer URL: https://8765-fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+include - ROOT/templates/element/pass_var.php, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1164
+Cake\View\View::_render() - CORE/src/View/View.php, line 1125
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1636
+Cake\View\View::element() - CORE/src/View/View.php, line 654
+include - ROOT/templates/layout/default.php, line 63
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1164
+Cake\View\View::_render() - CORE/src/View/View.php, line 1125
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 803
+Cake\View\View::render() - CORE/src/View/View.php, line 761
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 691
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 533
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 122
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-24 11:47:25 Notice: Notice (8): Undefined variable: texto1 in [/workspace/cakephp/cakephp/templates/element/pass_var.php, line 2]
+Request URL: /
+Referer URL: https://8765-fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+include - ROOT/templates/element/pass_var.php, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1164
+Cake\View\View::_render() - CORE/src/View/View.php, line 1125
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1636
+Cake\View\View::element() - CORE/src/View/View.php, line 654
+include - ROOT/templates/layout/default.php, line 63
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1164
+Cake\View\View::_render() - CORE/src/View/View.php, line 1125
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 803
+Cake\View\View::render() - CORE/src/View/View.php, line 761
 Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 691
 Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 533
 Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
@@ -31,16 +281,100 @@ Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
 
 
 
-2020-01-17 12:07:04 Notice: Notice (8): Trying to get property 'name' of non-object in [/workspace/cakephp/cakephp/templates/AvariasPcs/add.php, line 20]
-Request URL: /avarias-pcs/add
-Referer URL: https://8765-ae2549fb-15f1-49ed-bd2b-b9ff7f080b40.ws-eu01.gitpod.io/
+2020-01-24 11:47:25 Notice: Notice (8): Undefined variable: texto2 in [/workspace/cakephp/cakephp/templates/element/pass_var.php, line 2]
+Request URL: /
+Referer URL: https://8765-fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
 Trace:
-Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 178
-DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 90
-include - ROOT/templates/AvariasPcs/add.php, line 20
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+include - ROOT/templates/element/pass_var.php, line 2
 Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1164
 Cake\View\View::_render() - CORE/src/View/View.php, line 1125
-Cake\View\View::render() - CORE/src/View/View.php, line 750
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1636
+Cake\View\View::element() - CORE/src/View/View.php, line 654
+include - ROOT/templates/layout/default.php, line 63
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1164
+Cake\View\View::_render() - CORE/src/View/View.php, line 1125
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 803
+Cake\View\View::render() - CORE/src/View/View.php, line 761
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 691
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 533
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-24 11:47:50 Notice: Notice (8): Undefined variable: texto1 in [/workspace/cakephp/cakephp/templates/element/pass_var.php, line 2]
+Request URL: /
+Referer URL: https://8765-fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+include - ROOT/templates/element/pass_var.php, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1164
+Cake\View\View::_render() - CORE/src/View/View.php, line 1125
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1636
+Cake\View\View::element() - CORE/src/View/View.php, line 654
+include - ROOT/templates/layout/default.php, line 63
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1164
+Cake\View\View::_render() - CORE/src/View/View.php, line 1125
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 803
+Cake\View\View::render() - CORE/src/View/View.php, line 761
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 691
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 533
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-24 11:47:50 Notice: Notice (8): Undefined variable: texto2 in [/workspace/cakephp/cakephp/templates/element/pass_var.php, line 2]
+Request URL: /
+Referer URL: https://8765-fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+include - ROOT/templates/element/pass_var.php, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1164
+Cake\View\View::_render() - CORE/src/View/View.php, line 1125
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1636
+Cake\View\View::element() - CORE/src/View/View.php, line 654
+include - ROOT/templates/layout/default.php, line 63
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1164
+Cake\View\View::_render() - CORE/src/View/View.php, line 1125
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 803
+Cake\View\View::render() - CORE/src/View/View.php, line 761
 Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 691
 Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 533
 Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79

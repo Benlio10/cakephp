@@ -25,6 +25,7 @@ use function substr;
 use const PREG_PATTERN_ORDER;
 use const T_ABSTRACT;
 use const T_AND_EQUAL;
+use const T_BITWISE_AND;
 use const T_CLASS;
 use const T_CONCAT_EQUAL;
 use const T_CONST;
@@ -57,8 +58,6 @@ use const T_XOR_EQUAL;
 class UnusedPrivateElementsSniff implements Sniff
 {
 
-	private const NAME = 'SlevomatCodingStandard.Classes.UnusedPrivateElements';
-
 	public const CODE_UNUSED_PROPERTY = 'UnusedProperty';
 
 	public const CODE_WRITE_ONLY_PROPERTY = 'WriteOnlyProperty';
@@ -67,20 +66,28 @@ class UnusedPrivateElementsSniff implements Sniff
 
 	public const CODE_UNUSED_CONSTANT = 'UnusedConstant';
 
+	private const NAME = 'SlevomatCodingStandard.Classes.UnusedPrivateElements';
+
 	/** @var string[] */
 	public $alwaysUsedPropertiesAnnotations = [];
-
-	/** @var string[]|null */
-	private $normalizedAlwaysUsedPropertiesAnnotations;
 
 	/** @var string[] */
 	public $alwaysUsedPropertiesSuffixes = [];
 
+	/** @var string[] */
+	public $alwaysUsedMethodsAnnotations = [];
+
+	/** @var string[]|null */
+	private $normalizedAlwaysUsedPropertiesAnnotations;
+
 	/** @var string[]|null */
 	private $normalizedAlwaysUsedPropertiesSuffixes;
 
+	/** @var string[]|null */
+	private $normalizedAlwaysUsedMethodsAnnotations;
+
 	/**
-	 * @return (int|string)[]
+	 * @return array<int, (int|string)>
 	 */
 	public function register(): array
 	{
@@ -90,37 +97,8 @@ class UnusedPrivateElementsSniff implements Sniff
 	}
 
 	/**
-	 * @return string[]
-	 */
-	private function getAlwaysUsedPropertiesAnnotations(): array
-	{
-		if ($this->normalizedAlwaysUsedPropertiesAnnotations === null) {
-			$this->normalizedAlwaysUsedPropertiesAnnotations = SniffSettingsHelper::normalizeArray($this->alwaysUsedPropertiesAnnotations);
-		}
-
-		return $this->normalizedAlwaysUsedPropertiesAnnotations;
-	}
-
-	/**
-	 * @return string[]
-	 */
-	private function getAlwaysUsedPropertiesSuffixes(): array
-	{
-		if ($this->normalizedAlwaysUsedPropertiesSuffixes === null) {
-			$this->normalizedAlwaysUsedPropertiesSuffixes = SniffSettingsHelper::normalizeArray($this->alwaysUsedPropertiesSuffixes);
-		}
-
-		return $this->normalizedAlwaysUsedPropertiesSuffixes;
-	}
-
-	private function getSniffName(string $sniffName): string
-	{
-		return sprintf('%s.%s', self::NAME, $sniffName);
-	}
-
-	/**
-	 * @phpcsSuppress SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingParameterTypeHint
-	 * @param \PHP_CodeSniffer\Files\File $phpcsFile
+	 * @phpcsSuppress SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingNativeTypeHint
+	 * @param File $phpcsFile
 	 * @param int $classPointer
 	 */
 	public function process(File $phpcsFile, $classPointer): void
@@ -147,7 +125,7 @@ class UnusedPrivateElementsSniff implements Sniff
 		$writeOnlyProperties = [];
 		$findUsagesStartTokenPointer = $classToken['scope_opener'] + 1;
 
-		$isCurrentClass = function (int $referencedNamePointer) use ($phpcsFile, $tokens, $className): bool {
+		$isCurrentClass = static function (int $referencedNamePointer) use ($phpcsFile, $tokens, $className): bool {
 			if (in_array($tokens[$referencedNamePointer]['code'], [T_SELF, T_STATIC], true)) {
 				return true;
 			}
@@ -190,8 +168,11 @@ class UnusedPrivateElementsSniff implements Sniff
 					T_CONCAT_EQUAL,
 				], true)
 			) {
-				$writeOnlyProperties[$propertyName] = $propertyNameTokenPointer;
-				return;
+				$pointerAfterAssignToken = TokenHelper::findNextEffective($phpcsFile, $possibleAssignTokenPointer + 1);
+				if ($tokens[$pointerAfterAssignToken]['code'] !== T_BITWISE_AND) {
+					$writeOnlyProperties[$propertyName] = $propertyNameTokenPointer;
+					return;
+				}
 			}
 
 			unset($reportedProperties[$propertyName]);
@@ -416,7 +397,48 @@ class UnusedPrivateElementsSniff implements Sniff
 	}
 
 	/**
-	 * @param \PHP_CodeSniffer\Files\File $phpcsFile
+	 * @return string[]
+	 */
+	private function getAlwaysUsedPropertiesAnnotations(): array
+	{
+		if ($this->normalizedAlwaysUsedPropertiesAnnotations === null) {
+			$this->normalizedAlwaysUsedPropertiesAnnotations = SniffSettingsHelper::normalizeArray($this->alwaysUsedPropertiesAnnotations);
+		}
+
+		return $this->normalizedAlwaysUsedPropertiesAnnotations;
+	}
+
+	/**
+	 * @return string[]
+	 */
+	private function getAlwaysUsedPropertiesSuffixes(): array
+	{
+		if ($this->normalizedAlwaysUsedPropertiesSuffixes === null) {
+			$this->normalizedAlwaysUsedPropertiesSuffixes = SniffSettingsHelper::normalizeArray($this->alwaysUsedPropertiesSuffixes);
+		}
+
+		return $this->normalizedAlwaysUsedPropertiesSuffixes;
+	}
+
+	/**
+	 * @return string[]
+	 */
+	private function getAlwaysUsedMethodsAnnotations(): array
+	{
+		if ($this->normalizedAlwaysUsedMethodsAnnotations === null) {
+			$this->normalizedAlwaysUsedMethodsAnnotations = SniffSettingsHelper::normalizeArray($this->alwaysUsedMethodsAnnotations);
+		}
+
+		return $this->normalizedAlwaysUsedMethodsAnnotations;
+	}
+
+	private function getSniffName(string $sniffName): string
+	{
+		return sprintf('%s.%s', self::NAME, $sniffName);
+	}
+
+	/**
+	 * @param File $phpcsFile
 	 * @param int $classTokenPointer
 	 * @return int[] string(name) => pointer
 	 */
@@ -477,7 +499,7 @@ class UnusedPrivateElementsSniff implements Sniff
 	}
 
 	/**
-	 * @param \PHP_CodeSniffer\Files\File $phpcsFile
+	 * @param File $phpcsFile
 	 * @param int $privateTokenPointer
 	 * @return string[]
 	 */
@@ -487,7 +509,7 @@ class UnusedPrivateElementsSniff implements Sniff
 	}
 
 	/**
-	 * @param \PHP_CodeSniffer\Files\File $phpcsFile
+	 * @param File $phpcsFile
 	 * @param int $classTokenPointer
 	 * @return int[] string(name) => pointer
 	 */
@@ -509,12 +531,34 @@ class UnusedPrivateElementsSniff implements Sniff
 				continue;
 			}
 
-			$methodName = FunctionHelper::getName($phpcsFile, $methodTokenPointer);
-
-			if (!in_array($methodName, ['__construct', '__clone'], true)) {
-				$reportedMethods[$methodName] = $methodTokenPointer;
-			}
 			$findMethodsStartTokenPointer = $methodTokenPointer + 1;
+
+			$annotationNames = $this->getAnnotationNames($phpcsFile, $visibilityModifierTokenPointer);
+			$alwaysUsedMethod = false;
+			foreach ($annotationNames as $annotationName) {
+				foreach ($this->getAlwaysUsedMethodsAnnotations() as $alwaysUsedMethodAnnotationName) {
+					if ($annotationName === $alwaysUsedMethodAnnotationName) {
+						$alwaysUsedMethod = true;
+						break 2;
+					}
+
+					if (substr($alwaysUsedMethodAnnotationName, -1) === '\\' && strpos($annotationName, $alwaysUsedMethodAnnotationName) === 0) {
+						$alwaysUsedMethod = true;
+						break 2;
+					}
+				}
+			}
+
+			if ($alwaysUsedMethod) {
+				continue;
+			}
+
+			$methodName = FunctionHelper::getName($phpcsFile, $methodTokenPointer);
+			if (in_array($methodName, ['__construct', '__clone'], true)) {
+				continue;
+			}
+
+			$reportedMethods[$methodName] = $methodTokenPointer;
 		}
 
 		return $reportedMethods;
@@ -531,7 +575,7 @@ class UnusedPrivateElementsSniff implements Sniff
 	}
 
 	/**
-	 * @param \PHP_CodeSniffer\Files\File $phpcsFile
+	 * @param File $phpcsFile
 	 * @param int $classTokenPointer
 	 * @return int[] string(name) => pointer
 	 */
@@ -564,7 +608,7 @@ class UnusedPrivateElementsSniff implements Sniff
 	}
 
 	/**
-	 * @param \PHP_CodeSniffer\Files\File $phpcsFile
+	 * @param File $phpcsFile
 	 * @param array<int, array<string, array<int, int|string>|int|string>> $tokens
 	 * @param int $methodTokenPointer
 	 * @return int|null

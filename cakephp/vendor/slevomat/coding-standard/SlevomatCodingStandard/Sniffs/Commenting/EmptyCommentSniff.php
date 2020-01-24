@@ -21,7 +21,7 @@ class EmptyCommentSniff implements Sniff
 	public const CODE_EMPTY_COMMENT = 'EmptyComment';
 
 	/**
-	 * @return (int|string)[]
+	 * @return array<int, (int|string)>
 	 */
 	public function register(): array
 	{
@@ -32,8 +32,8 @@ class EmptyCommentSniff implements Sniff
 	}
 
 	/**
-	 * @phpcsSuppress SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingParameterTypeHint
-	 * @param \PHP_CodeSniffer\Files\File $phpcsFile
+	 * @phpcsSuppress SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingNativeTypeHint
+	 * @param File $phpcsFile
 	 * @param int $commentStartPointer
 	 */
 	public function process(File $phpcsFile, $commentStartPointer): void

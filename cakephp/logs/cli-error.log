@@ -1,88 +1,14 @@
-2020-01-14 09:33:51 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wZGPa5Oxd7.regista_avarias' doesn't exist in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 142
+2020-01-20 17:31:20 Error: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Driver.php on line 102
 Stack Trace:
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:499
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:598
-- /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Command/ModelCommand.php:199
-- /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Command/ModelCommand.php:122
-- /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Command/ModelCommand.php:98
-- /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Command/ModelCommand.php:81
-- /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Command/AllCommand.php:93
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Console/BaseCommand.php:175
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
-- /workspace/cakephp/cakephp/bin/cake.php:12
-
-Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wZGPa5Oxd7.regista_avarias' doesn't exist in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 40
-Stack Trace:
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:40
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:349
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:352
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:301
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:305
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:140
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:499
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:598
-- /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Command/ModelCommand.php:199
-- /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Command/ModelCommand.php:122
-- /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Command/ModelCommand.php:98
-- /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Command/ModelCommand.php:81
-- /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Command/AllCommand.php:93
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Console/BaseCommand.php:175
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
-- /workspace/cakephp/cakephp/bin/cake.php:12
-
-
-
-2020-01-14 09:34:30 Error: [ParseError] syntax error, unexpected '-', expecting '{' in /workspace/cakephp/cakephp/src/Model/Table/Registo-avariasTable.php on line 25
-Stack Trace:
-- /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Command/ModelCommand.php:99
-- /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Command/ModelCommand.php:81
-- /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Command/AllCommand.php:93
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Console/BaseCommand.php:175
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
-- /workspace/cakephp/cakephp/bin/cake.php:12
-
-
-
-2020-01-14 09:34:51 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wZGPa5Oxd7.regista_avarias' doesn't exist in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 142
-Stack Trace:
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:499
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:598
-- /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Command/ModelCommand.php:199
-- /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Command/ModelCommand.php:122
-- /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Command/ModelCommand.php:98
-- /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Command/ModelCommand.php:81
-- /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Command/AllCommand.php:93
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Console/BaseCommand.php:175
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
-- /workspace/cakephp/cakephp/bin/cake.php:12
-
-Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wZGPa5Oxd7.regista_avarias' doesn't exist in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 40
-Stack Trace:
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:40
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:349
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:352
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:301
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:305
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:140
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:499
-- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:598
-- /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Command/ModelCommand.php:199
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Driver.php:102
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:114
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php:47
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php:65
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:391
+- /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Command/ModelCommand.php:1061
+- /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Command/ModelCommand.php:191
 - /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Command/ModelCommand.php:122
 - /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Command/ModelCommand.php:98
 - /workspace/cakephp/cakephp/vendor/cakephp/bake/src/Command/ModelCommand.php:81
