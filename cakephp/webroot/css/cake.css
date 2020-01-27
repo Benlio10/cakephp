@@ -154,6 +154,34 @@ th {
     justify-content: center;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+
+div.panel {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 60px;
+}
+
+div.panel form input:not([type=submit]) {
+    width: 100%;
+    height: 32px;
+    border: 0;
+    color: #666;
+    border-bottom: 2px solid #333;
+    font-size: 14px;
+
+}
+
+div.panel form input[type=submit] {
+    margin: 0 45%;
+}
+
 @media screen and (max-width: 640px) {
     .top-nav {
         margin: 0 auto;

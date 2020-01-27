@@ -60,10 +60,6 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     </main>
     <footer>
     <?= $this->element('footer'); ?>
-    <?= $this->element('pass_var', [
-        'texto1' => 'Professor',
-        'texto2' => 'Hugo Amarelo'
-    ]); ?>
     </footer>
 </body>
 </html>
