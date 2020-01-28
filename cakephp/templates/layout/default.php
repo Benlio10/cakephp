@@ -40,7 +40,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 <body>
     <nav class="top-nav">
         <div class="top-nav-title">
-            <a href="/"><span>Cake</span>PHP</a>
+            <a href="/"><span>BY</span>Leo</a>
         </div>
         <div class="top-nav-links">
             <?php

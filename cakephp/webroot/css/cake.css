@@ -37,13 +37,13 @@ th {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 112rem;
+    max-width: 100%;
     padding: 2rem;
     margin: 0 auto 2rem;
 }
 .top-nav-title a {
     font-size: 2.4rem;
-    color: #d33c43;
+    color: #260357;
 }
 .top-nav-title span {
     color: #404041;
@@ -155,11 +155,17 @@ th {
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    left: 0;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
     text-align: center;
+    vertical-align: middle;
+}
+
+footer h1 {
+    font-size: 14px;
 }
 
 div.panel {
@@ -175,11 +181,74 @@ div.panel form input:not([type=submit]) {
     color: #666;
     border-bottom: 2px solid #333;
     font-size: 14px;
-
 }
 
 div.panel form input[type=submit] {
-    margin: 0 45%;
+    display: block !important;
+    margin: auto;
+    background: #c28606;
+    border: 0;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+div.panel form input[type=submit]:hover {
+    background: #9e6c00;
+    transition: background 0.5s;
+}
+
+div.panel h2 {
+    text-align: center;
+    margin: 20px auto;
+    font-family: 'Comic Sans MS';
+    color: #333;
+}
+
+div.panel-register {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 60px;
+}
+
+div.panel-register form input:not([type=submit]) {
+    width: 100%;
+    height: 32px;
+    border: 0;
+    color: #666;
+    border-bottom: 2px solid #333;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+div.panel-register form button {
+    display: block !important;
+    margin: auto;
+    background: #c28606;
+    border: 0;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+div.panel-register form input[type=submit]:hover {
+    background: #9e6c00;
+    transition: background 0.5s;
+}
+
+div.panel-register legend {
+    text-align: center;
+    margin: 20px auto;
+    font-family: 'Comic Sans MS';
+    color: #333;
+}
+
+div.panel-register label {
+    margin: 0;
+    color: #ACACAC;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
 }
 
 @media screen and (max-width: 640px) {
