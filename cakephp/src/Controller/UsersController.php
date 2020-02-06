@@ -112,7 +112,7 @@ class UsersController extends AppController
             $user = $this->Auth->identify();
             if ($user) {
                 $this->Auth->setUser($user);
-                return $this->redirect(['controller' => 'posts']);
+                return $this->redirect(['controller' => 'pcs']);
             }
             $this->Flash->error('Incorrect Login');
         }
