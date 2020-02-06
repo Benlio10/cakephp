@@ -1,0 +1,4 @@
+msgid "msg"
+msgstr "Inglês"
+msgid "xpto"
+msgstr "Hello"
