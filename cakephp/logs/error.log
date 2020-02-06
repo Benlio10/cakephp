@@ -5236,3 +5236,651 @@ Stack Trace:
 Request URL: /arquivos
 
 
+2020-02-06 16:33:05 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+
+
+2020-02-06 16:33:30 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+
+
+2020-02-06 16:33:31 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+
+
+2020-02-06 16:33:32 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+
+
+2020-02-06 16:33:33 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+
+
+2020-02-06 16:33:33 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+
+
+2020-02-06 16:33:34 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+
+
+2020-02-06 16:33:34 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+
+
+2020-02-06 16:33:35 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+
+
+2020-02-06 16:33:35 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+
+
+2020-02-06 16:33:35 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+
+
+2020-02-06 16:33:36 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+
+
+2020-02-06 16:33:36 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+
+
+2020-02-06 16:33:36 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+
+
+2020-02-06 16:33:37 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+
+
+2020-02-06 16:33:37 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+
+
+2020-02-06 16:33:37 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+
+
+2020-02-06 16:33:38 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+
+
+2020-02-06 16:33:38 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+
+
+2020-02-06 16:33:38 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+
+
+2020-02-06 16:33:39 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+
+
+2020-02-06 16:33:40 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+
+
+2020-02-06 16:33:40 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+
+
+2020-02-06 16:33:41 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 178
+Stack Trace:
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php:150
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:42
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:333
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:69
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:336
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:245
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2018
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1910
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1811
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1511
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1512
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1812
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/ToolbarService.php:256
+- /workspace/cakephp/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:66
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /workspace/cakephp/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /workspace/cakephp/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: https://fbb57c34-4683-44bf-bcd5-b27f7a385fd0.ws-eu01.gitpod.io/
+
+
